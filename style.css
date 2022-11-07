@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Anton&family=Fuzzy+Bubbles&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("back.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+h2 {
+    text-align: right;
+    margin-top: 3vw;
+    font-size: 3vw;
+    font-family: 'ABeeZee', sans-serif;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(97, 97, 97);
+    margin: 13vw 10vw;
+}   
+
+.container1{
+    text-align: right;
+    margin: -3vw -7vw;
+    /* border: 1px solid black; */
+    padding-right: 17vw;
+}
+#lable{
+    color: white;
+    text-shadow: 5px 5px 5px rgb(97, 97, 97);
+    font-size: 2vw;
+    font-family: 'ABeeZee', sans-serif;
+}
+#city{
+    height: 16px;
+    width: 30vw;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 11px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    background-color: #0ab8ff;
+    padding-left: 10px;
+    color: white;
+    
+}
+#city::placeholder{
+    color: white;
+}
+.button{
+    height: 35px;
+    width: 8%;
+    font-family: cursive;
+    border: 1px solid #7cd6fc;
+    background-color: #7cd6fc;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.button:hover{
+    background-color: white;
+    color: blue;
+}
+#btn{
+    margin: 0vw 15vw;
+}
+#data{
+    background-color: #5bc1f8;
+    color: white;
+    margin-top: 4vw;
+    height: 10vw;
+    width: 25%;
+    text-align: center;
+    margin: 5vw 62vw;   
+    border-radius: 10px;
+    opacity: 0;
+    box-shadow: 5px 5px 5px rgb(97, 97, 97);
+    /* background: transparent; */
+}
+.text{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
